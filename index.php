@@ -4,7 +4,7 @@ Kirby::plugin('medienbaecker/history', [
 	'sections' => [
 		'history' => [
 			'props' => [
-				'headline' => function($headline) {
+				'headline' => function($headline = "History") {
 					return $headline;
 				},
 				'limit' => function($limit = 5) {
