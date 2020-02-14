@@ -1,11 +1,11 @@
 <?php
 
 Kirby::plugin('medienbaecker/history', [
-    'sections' => [
-        'history' => [
+	'sections' => [
+		'history' => [
 			'props' => [
-                'headline' => function($headline) {
-                    return $headline;
+				'headline' => function($headline) {
+					return $headline;
 				},
 				'limit' => function($limit = 5) {
 					return $limit;
@@ -23,6 +23,6 @@ Kirby::plugin('medienbaecker/history', [
 					return $latestPages;
 				}
 			]
-        ]
-    ]
+		]
+	]
 ]);
