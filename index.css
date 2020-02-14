@@ -1,0 +1,16 @@
+.k-history-section {
+
+}
+
+.k-history-section .latest-pages {
+
+}
+
+.k-history-section .latest-pages a {
+	display: block;
+	background: white;
+	line-height: 1.25em;
+	padding: .5rem .75rem;
+	box-shadow: 0 2px 5px rgba(22,23,26,.05);
+	margin-bottom: 2px;
+}
